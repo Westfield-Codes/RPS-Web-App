@@ -1,0 +1,23 @@
+<!-- Don't touch this! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPS Web App</title>
+  
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload = "showRound();">
+    <h1>Choose one!</h1> 
+    <div id = "console">
+    <div id="scoreBox" class = "over">Score: Loading</div>
+    <div id="statsBox">Loading ...</div>
+    <div id="result">Choose a move</div>
+  </div>
+  <div id = "buttons">
+    <button onclick="cpuTurn('r');">Rock</button>
+    <button onclick="cpuTurn('p');">Paper</button>
+    <button onclick="cpuTurn('s');">Scissors</button>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
